@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - master
-  jobs:
-    hi:
-      runs-on: windows-latest
-      steps:
-        - name: "print hello world "
-          run: echo " hi babu"
+
+jobs:
+  hi:
+    runs-on: windows-latest
+    steps:
+      - name: "print hello world "
+        run: echo " hi babu"
