@@ -1,0 +1,19 @@
+ name: "hello World"
+
+
+ on:
+   push:
+     branches:
+       - master
+   pull_request:
+     branches:
+       - master
+  
+  jobs:
+    hi:
+      runs-on: windows-latest
+      steps:
+        - name: "print hello world "
+          run: echo " hi babu"
+      
+      
